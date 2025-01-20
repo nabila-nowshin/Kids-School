@@ -141,8 +141,6 @@ section{
 .curriculum-detail{
     max-width: 1160px; 
     margin: 0 auto;
-    
-    border: 2px solid green;
 }
 .curriculum-heading{
     font-weight: 700;
@@ -171,7 +169,7 @@ section{
 
 .card-items{
     border-radius: 18.86px;
-    box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 #card-1{
     background: linear-gradient(#DEF5FF 0%, #FFFFFF 40%);
@@ -181,14 +179,10 @@ section{
 #card-2{
    background: linear-gradient(#FFF4DC 0%,#FFFFFF 40%);
    border: .94px solid #FFF4DC;
-   border-radius: 18.86px;
-   box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 #card-3{
     background: linear-gradient(#EEE1FF 0%,#FFFFFF 40%);
     border: .94px solid #F2E8FF;
-    border-radius: 18.86px;
-    box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 
 .card-btn-1,.card-btn-2,.card-btn-3{
@@ -267,5 +261,11 @@ section{
         margin-top: 0;
         font-size: 14px;
         font-weight: 500;
+    }
+
+    /* curriculum */
+    .curriculum-card{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
     }
 }
