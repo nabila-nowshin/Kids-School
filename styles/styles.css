@@ -142,7 +142,7 @@ section{
     max-width: 1160px; 
     margin: 0 auto;
 }
-.curriculum-heading{
+.section-heading{
     font-weight: 700;
     font-size: 46px;
     line-height: 57.5px;
@@ -216,6 +216,74 @@ section{
     color: #808080;;
     margin-bottom: 45px
 }
+
+
+.stories{
+    background: linear-gradient(to top,rgba(254, 163, 1, 0.2),rgba(255, 255, 255, 1)),url(../assets/bg.png);
+    background-size: cover;
+}
+
+/* linear-gradient(
+                    to bottom right, 
+                    rgba(255, 0, 0, 0.5), 
+                    rgba(0, 0, 255, 0.5)
+                ), */
+.stories-detail{
+    max-width: 1160px; 
+    margin: 0 auto;
+}
+
+.stories-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.item1{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.stories-card-item img{
+    width: 100%;
+    
+    /* border-radius: 16px; */
+}
+
+.stories-card-item{
+    border-radius: 16px;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+
+.stories-btn{
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 18px;
+    border-radius: 48px;
+    position:relative;
+    top:-30px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* mobile responsive */
 /* navbar */
 
@@ -267,5 +335,35 @@ section{
     .curriculum-card{
         grid-template-columns: 1fr;
         row-gap: 20px;
+    }
+
+    .section-heading{
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 20.8px;
+        margin-bottom: 20px;
+    }
+    
+    
+    
+    .card-items{
+        padding: 36px 82px;
+        border-radius: 12.77px; 
+    }
+    .card-btn-1,.card-btn-2,.card-btn-3{
+        font-size: 12.77px;
+    }
+    
+    
+    .card-heading{
+        font-size: 16.6px;
+        line-height: 20.8px;
+        margin: 22px 0;
+    }
+    
+    .card-description{
+        font-size: 10.22px;
+        line-height: 19.2px;
+        margin-bottom: 22px;
     }
 }
