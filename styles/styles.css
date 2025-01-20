@@ -1,0 +1,96 @@
+/* common styles */
+
+/* fonts */
+
+.quicksand {
+    font-family: "Quicksand", serif;
+  }
+
+.raleway {
+    font-family: "Raleway", serif;
+  }
+/* font-family: "Quicksand", serif; 
+font-family: "Quicksand", serif; */
+
+
+:root{
+    --orange:#FEA301;
+    --sky-blue:#01ACFD;
+    --sea-blue:#05D4DF;
+    --purple:#5D58EF;
+    --black:#111111;
+    --white:#FFFFFF;
+}
+
+.orange{
+    color: var(--orange);
+}
+
+.blue1{
+    color: var(--sky-blue);
+}
+
+.blue2{
+    color: var(--sea-blue);
+}
+
+.purple{
+    color: var(--purple);
+}
+body{
+   max-width: 1160px; 
+   margin: 0 auto;
+}
+
+
+/* nav styles */
+.navbar{
+    padding: 12px 0px 12px 0px;
+    border: 1px solid tomato;
+}
+.navbar,.nav-list>ul,.site-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-info{
+    gap: 11px;
+}
+
+.site-name{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    color: var(--black);
+    margin: 0;
+
+}
+.nav-list>ul{
+    list-style: none;
+    gap: 32px;
+}
+
+.nav-list li{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.contact-btn{
+    color: var(--white);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 12px;
+    padding: 10px 60.5px;
+}
+
+/* mobile responsive */
+/* navbar */
+
+@media screen and (max-width:576px) {
+    
+}
