@@ -332,6 +332,16 @@ section{
 }
 
 
+marquee{
+    font-weight: 700;
+    line-height: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #9c9bc1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
 
 
 
