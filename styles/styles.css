@@ -336,18 +336,93 @@ marquee{
     font-weight: 700;
     line-height: 2rem;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #9c9bc1;
+    background-color: #39FF14;
     height: 50px;
     display: flex;
     align-items: center;
 }
 
 
+.blink{
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
 
 
+footer{
+    padding: 123px 0;
+    background-color: #01ACFD;
+    color: white;
+}
+.footer-content{
+    max-width: 1160px; 
+    margin: 0 auto;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.kids-education{
+    grid-column: span 2;
+}
+
+.footer-logo{
+width: 81px;
+}
+
+.footer-logo img{
+    width: 100%;
+    }
+
+.kids-heading{
+    font-size: 42.14px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.edu-footer-header{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.footer-desrciption{
+    font-size: 20px;
+    max-width: 400px;
+}
+
+.about-heading,.social-title{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
 
 
+.about li{
+    list-style: none;
+    margin-bottom: 20px;
+}
 
+.about ul{
+    padding: 0;
+}
+.about a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    
+}
+
+.social-images{
+    display: flex;
+    gap: 10px;
+}
 
 
 
@@ -373,7 +448,7 @@ marquee{
         display: none;
     }
 
-    .banner,.curriculum-detail,.stories-detail{
+    .banner,.curriculum-detail,.stories-detail,.footer-content{
         padding: 0 1rem;  
       }
 
@@ -442,8 +517,14 @@ marquee{
         max-width: 120px;
     }
     
-   
-    
+    .kids-education{
+        grid-column: span 1;
+    }
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
     
     
     
